@@ -1,0 +1,160 @@
+repo_name: 2lambda123/dronekit-android
+report_id: ba5a306a770087f818d78d6c784ba670
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:53:42+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/dronekit-android
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/dronekit-android
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/2lambda123/dronekit-android/blob/master/ClientLib/build.gradle
+  detection_source: ClientLib/build.gradle
+  last_updated_by: ne0fhyk
+  last_updated_on: 2016-05-19 19:02:04.000000000 Z
+- name: Timber.io
+  description: Automatically convert logs from messy, hard-to-use, raw text to rich,
+    useful, clean events.
+  website_url: https://timber.io/
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/7634/xBNoTqvy_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/dronekit-android/blob/master/ClientLib/build.gradle
+  detection_source: ClientLib/build.gradle
+  last_updated_by: ne0fhyk
+  last_updated_on: 2016-05-09 20:30:44.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/dronekit-android/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: fhuya
+  last_updated_on: 2014-06-24 20:18:05.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/2lambda123/dronekit-android/blob/master/Vagrantfile
+  detection_source: Vagrantfile
+  last_updated_by: Hamish Willee
+  last_updated_on: 2015-12-01 03:09:43.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/dronekit-android
+  detection_source: Repo Metadata
+- name: com.github.zafarkhaja:java-semver
+  description: Java implementation of the SemVer Specification
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dronekit-android/blob/master/ClientLib/build.gradle
+  detection_source: ClientLib/build.gradle
+  last_updated_by: ne0fhyk
+  last_updated_on: 2016-06-09 16:18:03.000000000 Z
+- name: com.jakewharton.timber:timber
+  description: No-nonsense injectable logging
+  version: 3.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dronekit-android/blob/master/ClientLib/build.gradle
+  detection_source: ClientLib/build.gradle
+  last_updated_by: ne0fhyk
+  last_updated_on: 2016-05-18 16:35:38.000000000 Z
+- name: com.jcraft:jsch
+  description: JSch is a pure Java implementation of SSH2
+  version: 0.1.51
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dronekit-android/blob/master/ClientLib/build.gradle
+  detection_source: ClientLib/build.gradle
+  last_updated_by: ne0fhyk
+  last_updated_on: 2016-05-18 16:35:38.000000000 Z
+  vulnerabilities:
+  - name: Improper Limitation of a Pathname to a Restricted Directory in JCraft JSch
+    cve_id: CVE-2016-5725
+    cve_url: https://github.com/advisories/GHSA-q446-82vq-w674
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 0.1.54
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dronekit-android/blob/master/dependencyLibs/Mavlink/build.gradle
+  detection_source: dependencyLibs/Mavlink/build.gradle
+  last_updated_by: ne0fhyk
+  last_updated_on: 2015-07-15 06:38:39.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
